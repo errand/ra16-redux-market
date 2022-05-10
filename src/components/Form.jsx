@@ -12,8 +12,8 @@ export default function Form() {
   const [message, setMessage] = useState('')
   const [priceMessage, setPriceMessage] = useState('')
   const [specialPriceMessage, setSpecialPriceMessage] = useState('')
-  const [descriptionMessage, setDescriptionMessage] = useState('')
-  const [categoryMessage, setCategoryMessage] = useState('')
+  const [descriptionMessage] = useState('')
+  const [categoryMessage] = useState('')
 
   const dispatch = useDispatch();
 
